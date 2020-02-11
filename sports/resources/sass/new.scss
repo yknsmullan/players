@@ -1,0 +1,39 @@
+.create{
+    &_content{
+        border-bottom: 2px solid #bfcad2;
+        background-color: rgba(0, 0, 0, 0.03);
+        display: block;
+        margin-bottom: 20px;
+    }
+    &_title{
+        font-size: 2rem;
+        color: #34495e;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+}
+.upload {
+    display: block;
+    margin-top: 0em;
+}
+fieldset {
+    background: transparent;
+    border: 0;
+    border-top: 1px dotted #ccc;
+    padding: 1em 0 0;
+}
+dl {
+    line-height: 1.25;
+    margin: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+dl:first-child dt {
+    margin-top: 0;
+}
+.upload dd {
+    margin-left: 0;
+}
